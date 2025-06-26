@@ -1,10 +1,30 @@
-/* General styles */
+/* pomo.css */
+
 body {
-  margin: 0;
-  font-family: sans-serif;
-  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  padding: 40px;
 }
 
-#app {
-  padding: 20px;
+#timer-display {
+  font-size: 5em;
+  margin: 20px;
+  color: #333;
+}
+
+.mode-buttons, .controls {
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.active-mode {
+  background-color: #076094;
+  color: white;
 }
